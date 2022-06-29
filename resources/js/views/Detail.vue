@@ -1,6 +1,6 @@
 <template>
     <Header :code="(item!==null) ? item.code : '000000000'">{{ $t('Artwork detail') }}</Header>
-    <div class="bg-gray-softest h-48 border-black border-t-2 border-b-2">
+    <div class="bg-gray-softest h-48 border-black border-t-2 border-b-2 overflow-hidden">
         <ItemImageLightbox v-if="item" :item="item"></ItemImageLightbox>
     </div>
     <div class="h-full border-black p-4 pb-24" v-if="item">
