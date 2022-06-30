@@ -1,6 +1,6 @@
 <template>
     <img
-        :class="`${marginY!==null ? `h-auto` : `h-full object-cover` } w-full`"
+        :class="`${marginY ? `h-auto` : `h-full object-cover` } w-full`"
         :alt="`${ item.author }: ${ item.title }`"
         :src="item.image_src"
         :srcset="item.image_srcset"
