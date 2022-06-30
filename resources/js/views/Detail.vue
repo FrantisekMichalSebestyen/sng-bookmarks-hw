@@ -66,7 +66,6 @@ onMounted(async () => {
     const responseCrop = await smartcrop.crop(img, { width: windowWidth.value, height: 192, minScale: 1, maxScale: 1 })
     const scaleMarginYResult = scaleMarginY(responseCrop, windowWidth.value)
     marginY.value = scaleMarginYResult
-    console.log(marginY)
 
 })
 

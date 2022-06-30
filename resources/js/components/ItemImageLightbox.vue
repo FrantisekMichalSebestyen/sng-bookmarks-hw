@@ -60,7 +60,4 @@ const props = defineProps({
     "item": Object,
     "marginY": Number});
 const visible = ref(false);
-onMounted(() => {
-    console.log(props.marginY)
-})
 </script>
